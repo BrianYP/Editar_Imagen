@@ -1,0 +1,33 @@
+comando netstat -ano
+saber que app esta haciendo uso comando: tasklist | findstr
+
+Primera conexión: 
+Proto: TCP
+Dirección Local: 0.0.0.0:135
+Dirección Remota: 0.0.0.0:0
+Estado: LISTENING
+PID: 1588
+esta primera conexión esta siendo usado por svchost.exe y esta a la espera.
+
+Segunda conexión:
+Proto: TCP
+Dirección Local: 10.100.145.248:57962
+Dirección Remota: 142.250.78.67:443
+Estado: ESTABLISHED
+PID: 13320
+esta segunda conexión a sido establecida con el brawser brave.exe
+
+Tercera conexión:
+Proto:TCP
+Dirección Local: 10.100.145.248.57636
+Dirección Remota: 20.7.2.167.443
+Estado:ESTABLISHED
+PID: 4904
+
+Cuarta conexión:
+Proto:10.100.145.248:57636
+Dirección Local: 20.7.2.167:443
+Dirección Remota: 
+Estado:  ESTABLISHED
+PID: 4904
+Esta conexión tambien fue establecida por svchost.exe con otro PID

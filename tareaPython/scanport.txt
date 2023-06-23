@@ -1,0 +1,6 @@
+TRabajo de usar el  escaneo de puertos en linea(scanport)
+
+de la pagina ww.elcolombano.com se y usando la pagina https://viewdns.info/portscan la cual permite hacer el escaneo
+en el caso de la pagina seleccionada los unicos puertos que tiene aviertos son: 
+-80 HTTP
+-443 IMAP

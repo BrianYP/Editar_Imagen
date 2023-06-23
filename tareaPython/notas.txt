@@ -1,0 +1,32 @@
+vector(){//Vector de las cuentas
+    n = 0
+    vect = new cuentas[100]
+}
+
+float promedioCuenta(){
+    int i 
+    float promedio = 0.0
+    para(i=0,n,1)haga
+        promedio = promedio + vect[i].getSaldo()
+    Fpara
+    promedio = promedio/n
+    return(promedio)
+}
+
+float insertarCuenta(cuentas, cuentsNuevas){
+    si(n<100)//Preguntamos si hay espacio en memoria{
+        vect[n-1] = cuentsNuevas
+        n = n+1
+    }
+    sino{
+        return(-1)
+    }
+    return(1)
+}
+
+int borrarCuentas(){
+    int i
+    para(i=0,n,1){
+        si(vect[i].getUtransaccion) 
+    }
+}
